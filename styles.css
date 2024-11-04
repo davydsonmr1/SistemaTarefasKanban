@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 20px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    width: 0%;
+    background-color: #4caf50;
+  }
+  
+  .kanban {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .column h2 {
+    margin-bottom: 10px;
+  }
+  
+  .task-list {
+    min-height: 100px;
+  }
+  
+  .task {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: grab;
+    position: relative;
+  }
+  
+  .delete-task {
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    color: #9b2b2b;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+/* Posiciona a porcentagem acima da barra de progresso, alinhada à direita */
+.progress-percentage {
+    width: 100%;
+    text-align: right;     /* Alinha o texto à direita */
+    margin-bottom: 5px;    /* Espaço entre a porcentagem e a barra */
+    color: #4caf50;        /* Escolha uma cor de destaque */
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  
+  
